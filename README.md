@@ -4,12 +4,15 @@ This is an app based on my PHP Starter kit using **[PHPSpreadsheet](https://phps
 
 ## Getting started
 
+Clone the repo:
 ```bash
 git clone https://github.com/antoinebollinger/excel-reader.git .
 ```
-
+Install dependencies: 
+```bash
+composer install
+```
 To run the PHP server:
-
 ```
 php -S localhost:8000
 ```
