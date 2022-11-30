@@ -1,0 +1,16 @@
+{% extends "layout.twig" %}
+
+{% set content %}
+    <form method="post" enctype="multipart/form-data">
+        <div class="mb-3">
+            <label for="formFile" class="form-label">Veuillez sélectionner un fichier excel (.xls, .xlsx)</label>
+            <input type="file" class="form-control" name="excel" accept=".xls,.xlsx" id="fileInput"/>
+        </div>
+        <div class="mb-3 d-flex justify-content-end">
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+        </div>
+    </form>
+    <p>Fichier reçu :</p>
+    <pre>{{ dump(_files) }}</pre>
+    <pre>{{ dump(excel) }}</pre>
+{% endset %}
