@@ -1,6 +1,6 @@
 # Excel files reader 
 
-This is an app based on my PHP Starter kit using **[PHPSpreadsheet](https://phpspreadsheet.readthedocs.io/en/latest/)** to write/edit Excel files.
+This is an app based on my **[PHP Starter](https://github.com/Antoine-Bollinger/kit_php_twig)** kit and using **[PHPSpreadsheet](https://phpspreadsheet.readthedocs.io/en/latest/)** to write/edit Excel files.
 
 ## Getting started
 
